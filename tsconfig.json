@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                                 
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "resolveJsonModule": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@mobile/*": ["./src/mobile/*"],
+      "@webapp/*": ["./src/web-app/*"],
+			"@common/*": ["./src/common/*"],
+		},
+  }
+}
